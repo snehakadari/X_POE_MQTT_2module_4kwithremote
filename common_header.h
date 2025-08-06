@@ -10,7 +10,7 @@ String staticIP = "";
 String gateway = "";
 String subnet = "";
 
-String Sversion = "V1.9";
+String Sversion = "V2.0";
 
 const char* ap_ssid = "PROCOM_AP";
 const char* ap_password = "12345678";
@@ -72,4 +72,5 @@ String login_body = "{\"username\":\"xpoeclient\",\"password\":\"xpoepass\"}";
 bool master_pub =true;
 // JWT token
 String jwt_token = "";
+
 String SlaveJwt ="";
