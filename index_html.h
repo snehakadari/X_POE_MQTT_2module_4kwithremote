@@ -282,7 +282,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     </style>
 </head>
 <body>
-<h1>PROCOM X-POE TOUCH PANEL 2 MODULE 4K V1.9</h1>
+<h1>PROCOM X-POE TOUCH PANEL 2 MODULE 4K V2.0</h1>
 <button onclick="location.href='/wifi'">WiFi Configuration</button><br>
 <button onclick="location.href='/xpoe'">X-POE Configuration</button><br>
 <button onclick="location.href='/handleConfig'">X-POE SLAVE Config</button><br>
@@ -702,3 +702,4 @@ void other_routes_setup()
   server.on("/handleConfig", HTTP_GET, handleConfig);
   server.on("/select", HTTP_POST, handleSelect);
 }
+
